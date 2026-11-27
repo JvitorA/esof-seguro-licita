@@ -1,6 +1,7 @@
 <p align="center">
   <img src="imagens/logo.png" alt="Logo do sistema" width="600">
 </p>
+
 # Licita+
 
 Trabalho de Engenharia de Software Seguro sobre um sistema de licitações eletrônicas.
