@@ -1,0 +1,36 @@
+GET http://127.0.0.1:3000/propostas HTTP/1.1
+Host: 127.0.0.1:3000
+Proxy-Connection: keep-alive
+sec-ch-ua: "Chromium";v="158", "Not.A/Brand";v="24", "Google Chrome";v="158"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "macOS"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/jxl,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: http://127.0.0.1:3000/
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: licita_vulneravel=3ac3269f34a2042ccc4dd9d34b5ee586897083afb7263184aeb468419e56ebe0
+
+HTTP/1.1 200 OK
+cache-control: no-store
+x-content-type-options: nosniff
+x-frame-options: DENY
+referrer-policy: same-origin
+content-type: text/html; charset=utf-8
+content-length: 3566
+Date: Fri, 27 Nov 2026 02:39:37 GMT
+Connection: keep-alive
+Keep-Alive: timeout=72
+
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Propostas · Licita+</title><link rel="icon" href="/assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/assets/style.css"></head>
+<body class="">
+<aside class="sidebar"><a class="brand" href="/" aria-label="Licita+, início"><img class="brand-logo" src="/assets/logo-licita.png" alt="LICITA+ — Licitação Eletrônica" width="1536" height="1024"></a>
+<div class="workspace"><span class="eyebrow">AMBIENTE DE TRABALHO</span><strong>Compras institucionais</strong><span>Universidade · demonstração</span></div><nav aria-label="Menu principal"><a href="/" class="nav-item " ><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>Visão geral</a><a href="/licitacoes" class="nav-item " ><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 21V7l8-4 8 4v14M2 21h20M9 21v-5h6v5M8 8h1M15 8h1M8 12h1M15 12h1"/></svg>Licitações</a><a href="/propostas" class="nav-item active" aria-current="page"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"/><path d="M14 2v6h6M8 13h8M8 17h5"/></svg>Minhas propostas</a></nav>
+<div class="sidebar-bottom"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 8 3v6c0 5-8 9-8 9s-8-4-8-9V6Z"/><path d="m8 12 3 3 5-6"/></svg><span>Projeto acadêmico<small>Engenharia de Software Seguro</small></span></div></aside>
+<div class="app-shell"><header class="topbar"><span class="breadcrumb">Portal do fornecedor <span>/</span> Propostas</span><div class="topbar-right"><span class="mode vulneravel">Ambiente vulnerável</span><span class="avatar">BC</span></div></header>
+<main id="conteudo"><div class="page-heading"><div><span class="eyebrow">ACOMPANHAMENTO</span><h1>Minhas propostas</h1><p>Consulte as propostas disponíveis para o seu perfil de acesso.</p></div></div><section class="panel"><div class="panel-heading"><h2>Propostas recebidas</h2><span class="count">2</span></div><div class="table-scroll"><table><thead><tr><th>Protocolo / licitação</th><th>Empresa</th><th>Valor proposto</th><th>Situação</th><th><span class="sr-only">Ação</span></th></tr></thead><tbody><tr><td><strong>PR-0002</strong><small>PE 042/2026</small></td><td>Beta Soluções</td><td class="numeric">R$ 120,00</td><td><span class="status open">Recebendo propostas</span></td><td><a class="text-link" href="/propostas/2">Consultar</a></td></tr><tr><td><strong>PR-0004</strong><small>PE 038/2026</small></td><td>Beta Soluções</td><td class="numeric">R$ 51.400,00</td><td><span class="status review">Em análise</span></td><td><a class="text-link" href="/propostas/4">Consultar</a></td></tr></tbody></table></div></section></main><footer class="page-footer"><span>Licita+ · Laboratório de segurança</span><span>Dados fictícios · uso local</span></footer></div></body></html>

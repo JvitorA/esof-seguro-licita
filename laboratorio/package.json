@@ -1,0 +1,28 @@
+{
+  "name": "licita-laboratorio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Laboratório local do Licita+ para comparar vulnerabilidades e correções.",
+  "engines": { "node": ">=24 <25" },
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/server.js",
+    "start:vulneravel": "tsx src/server.ts --mode=vulneravel",
+    "start:corrigido": "tsx src/server.ts --mode=corrigido",
+    "test": "tsx --test test/*.test.ts",
+    "check": "tsc --noEmit && tsc --noEmit -p tsconfig.test.json",
+    "reset": "tsx scripts/reset.ts"
+  },
+  "dependencies": {
+    "@fastify/cookie": "11.1.5",
+    "@fastify/formbody": "9.0.2",
+    "fastify": "5.12.8"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2"
+  }
+}

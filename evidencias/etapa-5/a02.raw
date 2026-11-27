@@ -1,0 +1,32 @@
+POST http://127.0.0.1:3000/propostas/2/editar HTTP/1.1
+Host: 127.0.0.1:3000
+Proxy-Connection: keep-alive
+Content-Length: 147
+Cache-Control: max-age=0
+sec-ch-ua: "Chromium";v="158", "Not.A/Brand";v="24", "Google Chrome";v="158"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "macOS"
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36
+Origin: http://127.0.0.1:3000
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/jxl,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: http://127.0.0.1:3000/propostas/2/editar
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: licita_vulneravel=6c78479472c2e1c551fc227902295a1eee779b6fcceb35955db4b6e20b4fdf35
+
+_csrf=255c7c357ca4560803e0e47e83f4ac3a1e3baed723791038&value=120&notes=Equipamentos+conforme+especifica%C3%A7%C3%A3o+do+edital.+Entrega+em+25+dias.HTTP/1.1 303 See Other
+cache-control: no-store
+x-content-type-options: nosniff
+x-frame-options: DENY
+referrer-policy: same-origin
+location: /propostas/2
+content-length: 0
+Date: Fri, 27 Nov 2026 02:38:43 GMT
+Connection: keep-alive
+Keep-Alive: timeout=72
+

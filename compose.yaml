@@ -1,0 +1,32 @@
+name: licita-lab
+
+services:
+  vulneravel:
+    build: ./laboratorio
+    image: licita-lab:local
+    environment:
+      LAB_MODE: vulneravel
+    ports:
+      - "127.0.0.1:3000:3000"
+    volumes:
+      - dados-vulneravel:/app/data
+    init: true
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+
+  corrigido:
+    image: licita-lab:local
+    build: ./laboratorio
+    environment:
+      LAB_MODE: corrigido
+    ports:
+      - "127.0.0.1:3001:3000"
+    volumes:
+      - dados-corrigido:/app/data
+    init: true
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+
+volumes:
+  dados-vulneravel:
+  dados-corrigido:

